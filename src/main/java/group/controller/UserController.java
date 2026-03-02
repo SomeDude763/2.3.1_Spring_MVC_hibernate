@@ -1,5 +1,6 @@
 package group.controller;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import group.model.User;
 import group.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -25,7 +26,7 @@ public class UserController {
     }
 
     @GetMapping(value = "/edit")
-    public String editPage(@RequestParam(value = "id") int id,Model model) {
+    public String editPage(@RequestParam(value = "id") int id, Model model) {
         User user = userService.getById(id);
         model.addAttribute("user", user);
         return "editPage";

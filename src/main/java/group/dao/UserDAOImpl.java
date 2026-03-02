@@ -1,50 +1,45 @@
 package group.dao;
 
 import group.model.User;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Repository
 public class UserDAOImpl implements UserDAO {
-    private SessionFactory sessionFactory;
-
-    @Autowired
-    public UserDAOImpl(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
+    @PersistenceContext
+    private EntityManager entityManager;
 
 
     @Override
     public List<User> allUsers() {
-        Session session = sessionFactory.getCurrentSession();
-        return session.createQuery("from User").list();
+        TypedQuery<User> query = entityManager.createQuery("select u from User u", User.class);
+        return query.getResultList();
     }
 
     @Override
     public void add(User user) {
-        Session session = sessionFactory.getCurrentSession();
-        session.persist(user);
+        entityManager.persist(user);
     }
 
     @Override
     public void delete(User user) {
-        Session session = sessionFactory.getCurrentSession();
-        session.delete(user);
+        User managedUser = entityManager.find(User.class, user.getId());
+        if (managedUser != null) {
+            entityManager.remove(managedUser);
+        }
     }
 
     @Override
     public void edit(User user) {
-        Session session = sessionFactory.getCurrentSession();
-        session.update(user);
+        entityManager.merge(user);
     }
 
     @Override
     public User getById(int id) {
-        Session session = sessionFactory.getCurrentSession();
-        return session.get(User.class,id);
+        return entityManager.find(User.class,id);
     }
 }
