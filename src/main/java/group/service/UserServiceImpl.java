@@ -3,8 +3,8 @@ package group.service;
 import group.dao.UserDAO;
 import group.model.User;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -15,7 +15,7 @@ public class UserServiceImpl implements UserService {
         this.userDAO = userDAO;
     }
 
-    @Transactional
+    @Transactional(readOnly = true)
     @Override
     public List<User> allUsers() {
         return userDAO.allUsers();
@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
         userDAO.edit(user);
     }
 
-    @Transactional
+    @Transactional(readOnly = true)
     @Override
     public User getById(int id) {
         return userDAO.getById(id);

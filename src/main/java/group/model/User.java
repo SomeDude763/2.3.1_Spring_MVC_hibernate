@@ -1,6 +1,12 @@
 package group.model;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "users")
@@ -9,10 +15,23 @@ public class User {
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     @Column(name = "name")
+    @NotBlank(message = "Имя не должно быть пустым, заправься борщом густым")
+    @Size(min = 2,max = 50, message = "тут такое дело... " +
+            "имя должно состоять как минимум из 2 и как максимум из 50 символов")
+    @Pattern(regexp = "^[a-zA-Zа-яА-Я]+$",message = "выйди и зайди заново, используя только буквы")
     private String name;
+
     @Column(name = "surname")
+    @NotBlank(message = "Фамилия не должна быть пустой, сделай бутерброд с колбасой")
+    @Size(min = 2,max = 50, message = "ну что ж такое то," +
+            " фамилия должна состоять как минимум из 2 и как максимум из 50 символов")
+    @Pattern(regexp = "^[a-zA-Zа-яА-Я\\-]+$",message = "зайди и выйди заново, используя только буквы")
     private String surname;
+
+    @Min(value = 0, message = "Возраст не может быть меньше 0, за меня идиота не держи")
+    @Max(value = 150, message = "Возраст слишком большой, сооберись")
     @Column(name = "age")
     private int age;
 

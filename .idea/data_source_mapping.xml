@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" value="1c31243a-2b20-4af2-a8cf-2e1e7d963356" />
+    <file url="file://$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/queries/Query.sql" value="1c31243a-2b20-4af2-a8cf-2e1e7d963356" />
   </component>
 </project>

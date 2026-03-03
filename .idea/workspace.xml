@@ -9,10 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080803f7-767a-48ab-b41d-0e5ca3f56736" name="Changes" comment="">
+    <list default="true" id="080803f7-767a-48ab-b41d-0e5ca3f56736" name="Changes" comment="пару правок">
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/dataSources/1c31243a-2b20-4af2-a8cf-2e1e7d963356.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/dataSources/1c31243a-2b20-4af2-a8cf-2e1e7d963356.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/java/group/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/webapp/WEB-INF/pages/editPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/webapp/WEB-INF/pages/editPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/webapp/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2.3.1_Spring_MVC_Hibernate/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,32 +69,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.2.3.1_Spring_MVC_Hibernate. [clean].executor": "Run",
-    "Maven.2.3.1_Spring_MVC_Hibernate. [package].executor": "Run",
-    "Maven.spring-mvc-tomcat9 [clean].executor": "Run",
-    "Maven.spring-mvc-tomcat9 [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Tomcat Server.Tomcat 9.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Twentin Karantino/IdeaProjects/2.3.1_Spring_MVC_Hibernate/src/main/resources",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.2.3.1_Spring_MVC_Hibernate. [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.2.3.1_Spring_MVC_Hibernate. [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mvc-tomcat9 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mvc-tomcat9 [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Twentin Karantino/IdeaProjects/2.3.1_Spring_MVC_Hibernate/src/main/resources&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Twentin Karantino\IdeaProjects\2.3.1_Spring_MVC_Hibernate\src\main\resources" />
@@ -122,6 +132,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8087/users" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="2.3.1_Spring_MVC_Hibernate.:war exploded">
@@ -209,6 +220,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -236,11 +251,25 @@
       <workItem from="1772268510220" duration="7003000" />
       <workItem from="1772285363084" duration="7554000" />
       <workItem from="1772355509929" duration="12501000" />
-      <workItem from="1772475295530" duration="1507000" />
+      <workItem from="1772475295530" duration="1568000" />
+      <workItem from="1772548302690" duration="9214000" />
     </task>
+    <task id="LOCAL-00001" summary="пару правок">
+      <option name="closed" value="true" />
+      <created>1772476852533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772476852533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="пару правок" />
+    <option name="LAST_COMMIT_MESSAGE" value="пару правок" />
   </component>
 </project>
